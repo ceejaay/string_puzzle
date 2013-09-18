@@ -11,9 +11,6 @@ string = string.chop!
 string[0] = random_number.to_s
 string[1] = "S"
 string[string.length] = "E"
-#puts "#{random_number} is the random number"
-#puts string.length
-#puts string.length == random_number * random_number + 1
 puts string
 
 
